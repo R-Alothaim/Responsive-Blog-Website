@@ -1,0 +1,11 @@
+{
+  "name": "responsive-blog",
+  "version": "1.0.0",
+  "description": "A responsive blog exploring minimalism - Living the Simple Life",
+  "scripts": {
+    "dev": "npx live-server --port=3000",
+    "start": "npx live-server --port=3000"
+  },
+  "author": "R-Alothaim",
+  "license": "MIT"
+}
