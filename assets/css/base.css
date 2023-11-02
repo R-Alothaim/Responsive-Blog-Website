@@ -1,0 +1,46 @@
+
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-light);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: var(--fw-regular);
+  color: var(--color-primary-dark);
+}
+
+h1 {
+  font-size: var(--fs-h1);
+  margin: 0;
+}
+
+h3 {
+  color: var(--color-primary);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-primary-dark);
+}
+
+strong {
+  font-weight: var(--fw-bold);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
