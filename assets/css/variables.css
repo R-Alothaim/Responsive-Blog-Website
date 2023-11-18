@@ -1,0 +1,47 @@
+
+
+:root {
+  
+  --color-primary: #1792d2;
+  --color-primary-dark: #143774;
+  --color-text: #333;
+  --color-text-light: #707070;
+  --color-bg: #fff;
+  --color-bg-light: #f8f8f8;
+  --color-bg-widget: #efefef;
+  --color-white: #fff;
+
+  
+  --font-heading: "Lora", serif;
+  --font-body: "Ubuntu", sans-serif;
+
+  --fs-base: 1.125rem;     
+  --fs-sm: 0.875rem;       
+  --fs-xs: 0.75rem;        
+  --fs-h1: 2rem;           
+  --fs-h2: 1.5rem;         
+  --fs-widget: 1rem;       
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  
+  --space-xs: 0.25em;
+  --space-sm: 0.5em;
+  --space-md: 1em;
+  --space-lg: 2em;
+  --space-xl: 3em;
+
+  
+  --container-width: 90%;
+  --container-max: 900px;
+
+  
+  --border-light: 1px solid var(--color-text-light);
+  --border-widget: 20px solid var(--color-bg-widget);
+
+  
+  --transition-fast: 0.2s ease;
+  --radius-md: 10px;
+}
