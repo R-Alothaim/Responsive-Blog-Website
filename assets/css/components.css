@@ -1,0 +1,151 @@
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin-left: var(--space-lg);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-text-light);
+  font-weight: var(--fw-bold);
+  padding: var(--space-xs) 0;
+}
+
+nav a:hover,
+nav a:focus {
+  color: var(--color-primary);
+}
+
+.current-page {
+  border-bottom: 1px solid var(--color-text-light);
+}
+
+.current-page:hover {
+  color: var(--color-text-light);
+}
+
+
+.subtitle {
+  font-weight: var(--fw-bold);
+  color: var(--color-primary);
+  font-size: var(--fs-xs);
+  margin: 0;
+}
+
+
+.image-full {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: var(--space-md);
+}
+
+
+.article-title {
+  font-size: var(--fs-h2);
+}
+
+.article-read-more,
+.article-info {
+  font-size: var(--fs-sm);
+}
+
+.article-read-more {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: var(--fw-bold);
+}
+
+.article-read-more:hover,
+.article-read-more:focus {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+.article-info {
+  margin: var(--space-lg) 0;
+}
+
+.article-featured {
+  border-bottom: var(--color-text-light) 1px solid;
+  padding-bottom: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.article-recent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--space-lg);
+}
+
+.article-recent-main {
+  order: 2;
+}
+
+.article-recent-secondary {
+  order: 1;
+}
+
+
+.widget-title,
+.widget-recent-post-title {
+  font-size: var(--fs-widget);
+}
+
+.widget-title {
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+}
+
+.widget-recent-post-title {
+  color: var(--color-primary-dark);
+}
+
+.sidebar-widget {
+  border: var(--border-widget);
+  margin-bottom: var(--space-lg);
+  padding: var(--space-md);
+}
+
+.widget-recent-post {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--color-text-light);
+  margin-bottom: 1rem;
+}
+
+.widget-recent-post:last-child {
+  border: 0;
+  margin: 0;
+}
+
+.widget-image {
+  order: -1;
+}
+
+
+.pop-up {
+  display: none;
+  background: rgba(220, 237, 248, 0.782);
+  backdrop-filter: blur(5px);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md);
+  width: 62%;
+  height: fit-content;
+  position: absolute;
+  left: 0;
+  transition: height var(--transition-fast);
+}
+
+.pop-up.open {
+  display: block;
+}
