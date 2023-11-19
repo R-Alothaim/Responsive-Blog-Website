@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="About the author of Living the Simple Life - how minimalism changed everything." />
+    <meta name="author" content="R-Alothaim" />
+
+    
+    <meta property="og:title" content="About Me - Living the Simple Life" />
+    <meta property="og:description" content="About the author of Living the Simple Life - how minimalism changed everything." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://r-alothaim.github.io/Responsive-Design/pages/about.html" />
+    <meta property="og:image" content="../assets/images/about-me.jpg" />
+
+    
+    <link rel="icon" href="data:," />
+
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap"
+    />
+
+    
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/variables.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/layout.css" />
+    <link rel="stylesheet" href="../assets/css/components.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+
+    <title>About Me - Living the Simple Life</title>
+  </head>
+  <body>
+    <header>
+      <div class="container container-flex">
+        <div class="site-title">
+          <h1>Living the social life</h1>
+          <p class="subtitle">a blog exploring minimalism in life</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a class="current-page" href="about.html">About me</a></li>
+            <li><a href="posts.html">Recent posts</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+    </header>
+
+    <div class="container container-flex">
+      <main role="main">
+        <div class="article-recent pop-up">
+          <article class="article-recent">
+            <div class="article-recent-main">
+              <h2 class="article-title">Keeping cooking simple</h2>
+              <p class="article-body">
+                Food is a very important part of everyone's life. If you want to
+                be healthy, you have to eat healthy. One of the easiest ways to do
+                that is to keep your cooking nice and simple.
+              </p>
+              <a href="#" class="article-read-more">CONTINUE READING</a>
+
+            <div class="article-recent-secondary">
+              <img src="../assets/images/food.jpg" alt="" class="article-image" />
+              <p class="article-info">July 19, 2019 | 3 comments</p>
+            </div>
+          </div>
+          </article>
+
+        </div>
+
+        <img src="../assets/images/about-me.jpg" class="image-full" alt="About me" />
+        <h2>My name is John and living the simple life saved my life</h2>
+
+        <p>
+          <strong>I used to be a pack rat</strong>. I had so many things that I
+          thought that I loved, but the truth was I couldn't even appreciate any
+          of it because there was too much.
+        </p>
+        <p>
+          Things were terrible. I had a job that I hated, a home that I didn't
+          want to live in, and I couldn't hold a relationship.
+        </p>
+
+        <h3>>How I turned things around</h3>
+        <p>
+          <strong
+            >I was on the verge of a breakdown when I got rid of
+            everything</strong
+          >. I literally put 90% of my possessions in the garbage, sold my place
+          and moved into a smaller apartment, and I quit my job.
+        </p>
+        <p>
+          It wasn't easy at all, but everything around me was in such a bad
+          place, I didn't know what else to do. And it worked.
+        </p>
+
+        <h3>>Now I live the simple life</h3>
+        <p>
+          Now that I'm living a simple life, things are so much better. I'm less
+          stressed, enjoy life and work more, and I have more free time to
+          enjoy.
+        </p>
+        <p>
+          With how much it turned my life around,
+          <strong
+            >I felt like I had no choice but to start sharing how I did
+            it</strong
+          >, and how others can benefit from living a simple life as well, which
+          is why I started this site!
+        </p>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-widget">
+          <h2 class="widget-title">RECENT POSTS</h2>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title"><a class="click-1" style="cursor: pointer;">Keeping cooking simple</a></h3>
+            <img
+              src="../assets/images/food.jpg"
+              alt="two dumplings on a wood plate with chopsticks"
+              class="widget-image"
+            />
+          </div>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title">Simplicity and work</h3>
+            <img
+              src="../assets/images/work.jpg"
+              alt="a chair white chair at a white desk on a white wall"
+              class="widget-image"
+            />
+          </div>
+          <div class="widget-recent-post">
+            <h3 class="widget-recent-post-title">Simple decorations</h3>
+            <img
+              src="../assets/images/deco.jpg"
+              alt="a green plant in a clear, round vase with water in it"
+              class="widget-image"
+            />
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p><strong>Living the Simple Life</strong></p>
+      <p>Copyright 2019</p>
+    </footer>
+
+    <script>
+      const click1 = document.querySelector(".click-1");
+      const popUp = document.querySelector(".pop-up");
+      click1.addEventListener("click", function () {
+        popUp.classList.toggle('open')
+      const isOpen = popUp.classList.contains('open')
+
+      });
+    </script>
+  </body>
+</html>

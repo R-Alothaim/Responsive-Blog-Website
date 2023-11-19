@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Page not found - Living the Simple Life" />
+    <meta name="author" content="R-Alothaim" />
+
+    
+    <link rel="icon" href="data:," />
+
+    
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap"
+    />
+
+    
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/base.css" />
+    <link rel="stylesheet" href="assets/css/layout.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <title>404 - Page Not Found</title>
+    <style>
+      .error-page {
+        text-align: center;
+        padding: 4em 0;
+        min-height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .error-code {
+        font-family: var(--font-heading);
+        font-size: 6rem;
+        color: var(--color-primary);
+        margin-bottom: 0;
+        line-height: 1;
+      }
+      .error-message {
+        font-size: 1.5rem;
+        color: var(--color-primary-dark);
+        margin: 0.5em 0 1em;
+      }
+      .error-description {
+        max-width: 480px;
+        margin-bottom: 2em;
+        color: var(--color-text-light);
+      }
+      .error-link {
+        display: inline-block;
+        padding: 0.75em 2em;
+        background: var(--color-primary);
+        color: var(--color-white);
+        text-decoration: none;
+        font-weight: var(--fw-bold);
+        border-radius: 4px;
+        transition: background var(--transition-fast);
+      }
+      .error-link:hover,
+      .error-link:focus {
+        background: var(--color-primary-dark);
+        color: var(--color-white);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container container-flex">
+        <div class="site-title">
+          <h1>Living the social life</h1>
+          <p class="subtitle">a blog exploring minimalism in life</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/about.html">About me</a></li>
+            <li><a href="pages/posts.html">Recent posts</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="error-page">
+        <p class="error-code">404</p>
+        <h2 class="error-message">Page Not Found</h2>
+        <p class="error-description">
+          The page you are looking for might have been removed, had its name
+          changed, or is temporarily unavailable. Keep it simple and head back
+          home.
+        </p>
+        <a href="index.html" class="error-link">Back to Home</a>
+      </div>
+    </div>
+
+    <footer>
+      <p><strong>Living the Simple Life</strong></p>
+      <p>Copyright 2019</p>
+    </footer>
+  </body>
+</html>
